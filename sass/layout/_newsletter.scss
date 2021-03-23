@@ -1,0 +1,44 @@
+.newsletter {
+  background-color: $smoky-black;
+  color: $white;
+  font-family: $old-standard;
+  box-sizing: border-box;
+  padding: 1rem;
+
+  h3 {
+    font-size: $x-large;
+  }
+  
+}
+
+.newsletter__submit {
+  font-family: $old-standard;
+  font-weight: $bold;
+  writing-mode: vertical-rl;
+  padding: 2rem .7rem 2rem .7rem;
+}
+
+@media (min-width: 768px) {
+  .newsletter {
+    padding: 2rem;
+    
+    h3 {
+      font-size: $xx-large;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .newsletter__submit {
+    padding-top: 3rem;
+    h4 {
+      font-size: $x-large;
+    }
+  }
+}
+
+@media (min-width: 1280px) {
+  .container .newsletter{
+    padding: 3rem 0 5rem 5rem;
+  }
+
+}

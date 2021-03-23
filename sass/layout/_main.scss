@@ -1,0 +1,69 @@
+.card {
+  margin: 2rem;
+  
+  .card__title {
+    font-family: $old-standard;
+    font-size: $xx-large;
+    font-weight: $bold;
+  }
+  
+  .card__text {
+    color: $granite-gray;
+  }
+
+  .card__btn {
+    margin-top: 1rem;
+  }
+}
+
+.xl-blog-img {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    object-position: 0 -10%;
+  }
+
+  .card {
+    padding-right: 20%;
+    .card__title {
+      font-size: $xxx-large;
+    }
+  }
+}
+
+@media  (min-width: 1280px) {
+  .blog-img {
+    display: none;
+  }
+
+  .content {
+    margin-top: 10%;
+    height: 100%;
+
+    .card {
+      margin-bottom: 5.5rem;
+    }
+  }
+
+  .xl-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5.5rem;
+    padding: 0px;
+    .content .card {
+      padding-left: 3rem;
+    }
+  }
+
+  .xl-blog-img {
+    display: flex;
+    img {
+    height: 90vh;
+    }
+  }
+}

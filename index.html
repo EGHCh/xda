@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/main.css">
+    <title>Tienda XDA</title>
+</head>
+<body>
+    <nav class="nav container">
+        <div class="nav__logo">
+            <a href="#" >XDA</a>
+        </div>
+        <input type="checkbox" id="sub-nav">
+        <div id="navigation-links">
+          <label for="sub-nav" class="sub-nav-toggle"><span></span></label>
+        </div>
+        <nav id="sub-navigation">
+          <a href="#" class="nav-item">Mujer</a>
+          <a href="#" class="nav-item">Hombre</a>
+          <a href="#" class="nav-item">Accesorios</a>
+          <a href="#" class="nav-item">Blog</a>
+        </nav>
+    </nav>
+    <!--Img-->
+    <div class="blog-img">
+        <img src="img/imagen1.png" alt="Modelo con lentes de sol">
+    </div>
+
+    <!--Tienda-->
+    <div class="xl-grid">
+        <div class="content">
+            <div class="card">
+                <h1 class="card__title">LOREM IMPSUM AD VALOREM</h1>
+                <p class="card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni quia illo eligendi, odio cupiditate commodi eos! Atque quae aspernatur iure voluptate quos consequatur ipsa esse aliquid. Obcaecati aliquam alias tempore.</p>
+                <button type="button" class="btn card__btn">Ir a tienda</button>
+            </div>
+            <!--Newsletter-->
+            <div class="container">
+                <div class="newsletter">
+                    <h3 class="newsletter_title">Newsletter</h3>
+                    <form class="newsletter_form">
+                        <label for="email">Correo Electrónico</label>
+                        <input type="text" name="email" placeholder="Ingresa tu correo electrónico">
+                    </form>
+                </div>
+                <div  class="newsletter__submit">
+                    <h4>Suscribir</h4>
+                </div>
+            </div>
+        </div>
+        <div class="xl-blog-img">
+            <img class="blog-img" src="img/imagen1.png" alt="Modelo con lentes de sol">
+        </div>
+    </div>
+</body>
+</html>

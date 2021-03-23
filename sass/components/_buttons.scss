@@ -1,0 +1,18 @@
+.btn {
+    background-color: $white;
+    padding: .5rem;
+    border: solid $smoky-black 2px;
+    font-weight: $bold;
+    font-size: $medium;
+
+    &:hover {
+        background-color: $smoky-black;
+        color: $white;
+    }
+}
+
+@media (min-width: 768px) {
+    .btn {
+        padding: .5rem 2rem .5rem 2rem;
+    }
+}
